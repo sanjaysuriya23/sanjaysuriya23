@@ -1,147 +1,143 @@
-<div align="center">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="sy-hero-title sy-hero-desc">
+  <title id="sy-hero-title">SANJAY SURIYA E</title>
+  <desc id="sy-hero-desc">Computer Science Student, AI Enthusiast, App Developer. Black and orange banner with a technical grid, orbital details and a flowing amber line.</desc>
 
-<img src="assets/suriya-hero.svg" alt="SANJAY SURIYA E — Computer Science Student, AI Enthusiast, App Developer" width="100%">
+  <defs>
+    <linearGradient id="sy-hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="0.55" stop-color="#141414"/>
+      <stop offset="1" stop-color="#22130A"/>
+    </linearGradient>
 
-**Computer Science Student &nbsp;|&nbsp; AI Enthusiast &nbsp;|&nbsp; App Developer &nbsp;|&nbsp; Aspiring AI Engineer**
+    <radialGradient id="sy-hero-glow-a" gradientUnits="userSpaceOnUse" cx="960" cy="205" r="440">
+      <stop offset="0" stop-color="#FF6A00" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#7A2E00" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#7A2E00" stop-opacity="0"/>
+      <animate attributeName="cx" values="900;1020;900" dur="14s" repeatCount="indefinite"/>
+    </radialGradient>
 
-</div>
+    <radialGradient id="sy-hero-glow-b" gradientUnits="userSpaceOnUse" cx="140" cy="430" r="380">
+      <stop offset="0" stop-color="#FF8A1F" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FF8A1F" stop-opacity="0"/>
+      <animate attributeName="cy" values="430;380;430" dur="11s" repeatCount="indefinite"/>
+    </radialGradient>
 
----
+    <linearGradient id="sy-hero-name" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="730" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFB347"/>
+    </linearGradient>
 
-## About Me
+    <linearGradient id="sy-hero-underline" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="680" y2="0">
+      <stop offset="0" stop-color="#FFB347"/>
+      <stop offset="0.5" stop-color="#FF8A1F"/>
+      <stop offset="1" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
 
-I'm **Sanjay Suriya E**, a B.E. Computer Science and Engineering student at **Paavai Engineering College** in Namakkal, Tamil Nadu. I'm learning programming through Python, C and C++, exploring artificial intelligence, and building applications to turn what I learn into something practical.
+    <linearGradient id="sy-hero-wave" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#FF8A1F"/>
+      <stop offset="0.7" stop-color="#FFB347"/>
+      <stop offset="1" stop-color="#FF8A1F" stop-opacity="0"/>
+    </linearGradient>
 
-My aim is to grow into an AI Engineer, one project and one problem at a time.
+    <pattern id="sy-hero-grid-fine" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="sy-hero-grid-major" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0V120" fill="none" stroke="#FFB347" stroke-opacity="0.09" stroke-width="0.8"/>
+    </pattern>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Currently</b><br>
-      Building <b>ONE7</b><br>
-      Exploring artificial intelligence<br>
-      Practising problem solving on LeetCode
-    </td>
-    <td width="50%" valign="top">
-      <b>Quick facts</b><br>
-      Based in Namakkal, Tamil Nadu, India<br>
-      B.E. CSE, batch 2025–2029<br>
-      Languages: Python, C, C++
-    </td>
-  </tr>
-</table>
+    <filter id="sy-hero-blur" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="sy-hero-soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
 
----
+    <clipPath id="sy-hero-clip">
+      <rect width="1200" height="420" rx="18"/>
+    </clipPath>
+  </defs>
 
-## Education
+  <g clip-path="url(#sy-hero-clip)">
+    <!-- Background layers -->
+    <rect width="1200" height="420" fill="url(#sy-hero-bg)"/>
+    <rect width="1200" height="420" fill="url(#sy-hero-glow-a)"/>
+    <rect width="1200" height="420" fill="url(#sy-hero-glow-b)"/>
+    <rect width="1200" height="420" fill="url(#sy-hero-grid-fine)"/>
+    <rect width="1200" height="420" fill="url(#sy-hero-grid-major)"/>
 
-<table>
-  <tr>
-    <td><b>College</b></td>
-    <td>Paavai Engineering College</td>
-  </tr>
-  <tr>
-    <td><b>Degree</b></td>
-    <td>Bachelor of Engineering (B.E.)</td>
-  </tr>
-  <tr>
-    <td><b>Department</b></td>
-    <td>Computer Science and Engineering</td>
-  </tr>
-  <tr>
-    <td><b>Academic period</b></td>
-    <td>2025–2029</td>
-  </tr>
-  <tr>
-    <td><b>Location</b></td>
-    <td>Namakkal, Tamil Nadu, India</td>
-  </tr>
-</table>
+    <!-- Orbital system -->
+    <g transform="translate(960 205)">
+      <circle r="150" fill="none" stroke="#FF8A1F" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="2 8"/>
+      <circle r="100" fill="none" stroke="#FFB347" stroke-opacity="0.22" stroke-width="1"/>
+      <ellipse rx="230" ry="70" transform="rotate(-24)" fill="none" stroke="#FF8A1F" stroke-opacity="0.42" stroke-width="1"/>
+      <ellipse rx="230" ry="70" transform="rotate(24)" fill="none" stroke="#FFB347" stroke-opacity="0.22" stroke-width="1"/>
+      <line x1="-190" y1="0" x2="190" y2="0" stroke="#FFB347" stroke-opacity="0.15"/>
+      <line x1="0" y1="-190" x2="0" y2="190" stroke="#FFB347" stroke-opacity="0.15"/>
 
----
+      <!-- Node on outer ring -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+        <circle cx="150" cy="0" r="7" fill="#FFB347" opacity="0.6" filter="url(#sy-hero-soft)"/>
+        <circle cx="150" cy="0" r="4" fill="#FFFFFF"/>
+      </g>
 
-## Technical Skills
+      <!-- Node on inner ring, opposite direction -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+        <circle cx="100" cy="0" r="3.5" fill="#FF8A1F"/>
+      </g>
 
-**Programming languages**
+      <!-- Node travelling along the tilted ellipse -->
+      <g transform="rotate(-24)">
+        <circle r="3" fill="#FFB347">
+          <animateMotion dur="18s" repeatCount="indefinite" path="M-230 0 a230 70 0 1 0 460 0 a230 70 0 1 0 -460 0"/>
+        </circle>
+      </g>
 
-![Python](https://img.shields.io/badge/Python-190B12?style=for-the-badge&logo=python&logoColor=E5B5C7&labelColor=190B12&color=451126)
-![C](https://img.shields.io/badge/C-190B12?style=for-the-badge&logo=c&logoColor=E5B5C7&labelColor=190B12&color=451126)
-![C++](https://img.shields.io/badge/C%2B%2B-190B12?style=for-the-badge&logo=cplusplus&logoColor=E5B5C7&labelColor=190B12&color=451126)
+      <!-- Core -->
+      <circle r="18" fill="none" stroke="#FF8A1F" stroke-opacity="0.55" stroke-width="1">
+        <animate attributeName="r" values="18;38" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.55;0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="9" fill="#FF6A00" stroke="#FFB347" stroke-width="1"/>
+      <circle r="3.5" fill="#FFFFFF"/>
+    </g>
 
-**Tools and platforms**
+    <!-- Technical corner marks -->
+    <g fill="none" stroke="#FFB347" stroke-opacity="0.4" stroke-width="1.2" stroke-linecap="square">
+      <path d="M32 64V32H64"/>
+      <path d="M1136 32H1168V64"/>
+      <path d="M32 356V388H64"/>
+      <path d="M1136 388H1168V356"/>
+    </g>
 
-![Git](https://img.shields.io/badge/Git-190B12?style=for-the-badge&logo=git&logoColor=E5B5C7&labelColor=190B12&color=451126)
-![GitHub](https://img.shields.io/badge/GitHub-190B12?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12&color=451126)
+    <!-- Labels -->
+    <text x="80" y="112" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="3" fill="#FF8A1F">B.E. COMPUTER SCIENCE AND ENGINEERING  /  2025 — 2029</text>
 
-*Frontend, backend and database skills will be added here as my projects demonstrate them.*
+    <!-- Name -->
+    <text x="80" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700" fill="url(#sy-hero-name)" textLength="650" lengthAdjust="spacing">SANJAY SURIYA E</text>
 
----
+    <!-- Role line -->
+    <text x="80" y="245" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" letter-spacing="1" fill="#FFB347">Computer Science Student<tspan fill="#FF6A00" dx="12">|</tspan><tspan dx="12">AI Enthusiast</tspan><tspan fill="#FF6A00" dx="12">|</tspan><tspan dx="12">App Developer</tspan></text>
 
-## Featured Project: ONE7
+    <!-- Glowing underline -->
+    <line x1="80" y1="274" x2="680" y2="274" stroke="#FF8A1F" stroke-width="5" stroke-opacity="0.55" filter="url(#sy-hero-blur)"/>
+    <line x1="80" y1="274" x2="680" y2="274" stroke="url(#sy-hero-underline)" stroke-width="2" stroke-linecap="round"/>
+    <circle r="4" fill="#FFFFFF" filter="url(#sy-hero-soft)">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M80 274 H680"/>
+    </circle>
 
-**ONE7** is the application I'm currently building.
+    <text x="80" y="312" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2.5" fill="#FFB347" fill-opacity="0.7">PAAVAI ENGINEERING COLLEGE</text>
 
-**Status:** In development
+    <!-- Flowing path: faint static copy keeps the design intact without animation -->
+    <path d="M-20 378 C 160 324, 300 416, 520 368 S 860 326, 1000 370 S 1160 398, 1220 356" fill="none" stroke="#FF8A1F" stroke-opacity="0.25" stroke-width="1.2"/>
+    <path d="M-20 378 C 160 324, 300 416, 520 368 S 860 326, 1000 370 S 1160 398, 1220 356" fill="none" stroke="url(#sy-hero-wave)" stroke-width="2" stroke-linecap="round" pathLength="1000" stroke-dasharray="1000">
+      <animate attributeName="stroke-dashoffset" values="1000;0;0" keyTimes="0;0.6;1" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
-A public repository, feature list and screenshots will be added here once ONE7 is ready to share.
-
-<!--
-  ONE7 TEMPLATE: fill this in only with what is actually implemented, then delete this comment.
-
-  **What it is:** one honest sentence on what ONE7 does and who it is for.
-  **Problem it addresses:** ...
-  **Implemented features:**
-  - ...
-  **Built with:** languages, frameworks and tools actually used
-  **Links:** [Repository](https://github.com/sanjaysuriya23/ONE7) · [Demo](...)
-  ![ONE7 preview](assets/one7-preview.png)
--->
-
----
-
-## GitHub Contribution Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjaysuriya23&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&area=true&area_color=701A3D&hide_border=true" alt="GitHub contribution activity graph for sanjaysuriya23" width="100%">
-
----
-
-## GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=sanjaysuriya23&show_icons=true&bg_color=190B12&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=451126&border_radius=10" alt="GitHub statistics for sanjaysuriya23" height="165">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sanjaysuriya23&layout=compact&bg_color=190B12&title_color=E5B5C7&text_color=F8F0F3&border_color=451126&border_radius=10" alt="Most used languages on GitHub for sanjaysuriya23" height="165">
-</p>
-
----
-
-## Coding Profiles
-
-<p align="center">
-  <a href="https://github.com/sanjaysuriya23"><img src="https://img.shields.io/badge/GitHub-sanjaysuriya23-701A3D?style=for-the-badge&logo=github&logoColor=F8F0F3&labelColor=190B12" alt="GitHub: sanjaysuriya23"></a>
-  <a href="https://leetcode.com/u/sanjaysuriya23/"><img src="https://img.shields.io/badge/LeetCode-sanjaysuriya23-701A3D?style=for-the-badge&logo=leetcode&logoColor=F8F0F3&labelColor=190B12" alt="LeetCode: sanjaysuriya23"></a>
-  <a href="https://www.linkedin.com/in/sanjay-suriya-6b354b427/"><img src="https://img.shields.io/badge/LinkedIn-Sanjay%20Suriya-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3&labelColor=190B12" alt="LinkedIn: Sanjay Suriya"></a>
-  <a href="https://www.instagram.com/sanjaysuriya23/"><img src="https://img.shields.io/badge/Instagram-sanjaysuriya23-701A3D?style=for-the-badge&logo=instagram&logoColor=F8F0F3&labelColor=190B12" alt="Instagram: sanjaysuriya23"></a>
-  <a href="mailto:sanjaysuriya232006@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3&labelColor=190B12" alt="Email: sanjaysuriya232006@gmail.com"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/sanjaysuriya23">GitHub</a> ·
-  <a href="https://leetcode.com/u/sanjaysuriya23/">LeetCode</a> ·
-  <a href="https://www.linkedin.com/in/sanjay-suriya-6b354b427/">LinkedIn</a> ·
-  <a href="https://www.instagram.com/sanjaysuriya23/">Instagram</a> ·
-  <a href="mailto:sanjaysuriya232006@gmail.com">sanjaysuriya232006@gmail.com</a>
-</p>
-
----
-
-## Career Goal
-
-I want to become an **AI Engineer**. For now that means building a strong foundation in programming and computer science, exploring how artificial intelligence works, building useful applications like ONE7, and improving my skills with every project.
-
----
-
-<div align="center">
-
-<img src="assets/suriya-footer.svg" alt="SANJAY SURIYA E — Learning. Building. Innovating." width="100%">
-
-</div>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="18" fill="none" stroke="#7A2E00" stroke-width="1"/>
+</svg>
